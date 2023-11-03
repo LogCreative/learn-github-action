@@ -9,5 +9,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
       - run: npm install -g bats
       - run: bats -v
