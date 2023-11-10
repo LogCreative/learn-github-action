@@ -3,7 +3,7 @@
 
 Took a long vacation, no makeup, just Jay-Z
 You were balls deep, now we beefin', had me butt-naked at the MGM
-So wasted screamin', "Fuck that," love me now, but I'm anythin'
+So wasted screamin', "F*** that," love me now, but I'm anythin'
 Hurry now, baby, stick it in 'fore the memories get to kickin' in
 
 It's too late, I don't wanna lose what's left of you
