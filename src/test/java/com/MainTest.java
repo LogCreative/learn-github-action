@@ -13,16 +13,4 @@ class MainTest {
 		assertEquals(2, result);
 	}
 
-	@Test
-	void test2(){
-		Main main = new Main();
-		int result;
-		try{
-			result = main.add(-1, 1);
-		}
-		catch(Exception e) {
-			System.out.println(e.getMessage());
-		}
-	}
-
 }
