@@ -1,0 +1,35 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    # 扫描指定分支的 PR
+    branches: [ main ]
+  schedule:
+    # 定期运行 CodeQL 扫描，例如每周一
+    - cron: '0 0 * * 1'
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+
+    - name: Build
+      run: |
+        # 这里添加你的构建命令
+        make bootstrap
+        make release
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
